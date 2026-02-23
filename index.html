@@ -3,43 +3,111 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lista de Precios - Tu Marca</title>
+<title>VTG GAMER | TECH - Lista de Precios</title>
+
 <style>
-body {
-font-family: Arial, sans-serif;
-margin: 40px;
-background-color: #f9f9f9;
-text-align: center;
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+background-color:#0f0f0f;
+color:white;
 }
-img {
-max-width: 150px;
-margin-bottom: 20px;
+
+header{
+text-align:center;
+padding:40px 20px;
+background:#111;
+border-bottom:2px solid #00ff88;
 }
-h1 {
-color: #333;
+
+header h1{
+margin:0;
+font-size:36px;
+color:#00ff88;
 }
-ol {
-list-style: none;
-padding: 0;
+
+header p{
+margin-top:10px;
+color:#aaa;
 }
-li {
-background: #fff;
-margin: 10px 0;
-padding: 10px;
-border: 1px solid #ddd;
-text-align: left;
-font-size: 18px;
+
+.container{
+width:90%;
+max-width:900px;
+margin:40px auto;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th, td{
+padding:15px;
+text-align:left;
+}
+
+th{
+background:#00ff88;
+color:black;
+}
+
+tr:nth-child(even){
+background:#1a1a1a;
+}
+
+tr:nth-child(odd){
+background:#141414;
+}
+
+.price{
+text-align:right;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:20px;
+color:#777;
+font-size:14px;
 }
 </style>
 </head>
+
 <body>
-<img src="tu-logo.png" alt="Logo de Tu Marca">
-<h1>Lista de Precios - Tu Marca</h1>
-<ol>
-<li>Assassin's Creed Valhalla - $25.000</li>
-<li>FIFA 24 - $12.000</li>
-<li>Ghost of Tsushima - $20.000</li>
-<!-- Agregá más juegos aquí -->
-</ol>
+
+<header>
+<h1>VTG GAMER | TECH</h1>
+<p>Lista Oficial de Precios</p>
+</header>
+
+<div class="container">
+<table>
+<tr>
+<th>Juego</th>
+<th class="price">Precio</th>
+</tr>
+
+<!-- ORDEN ALFABÉTICO -->
+<tr>
+<td>Assassin's Creed Valhalla</td>
+<td class="price">$25.000</td>
+</tr>
+<tr>
+<td>FIFA 24</td>
+<td class="price">$12.000</td>
+</tr>
+<tr>
+<td>Ghost of Tsushima</td>
+<td class="price">$20.000</td>
+</tr>
+
+</table>
+</div>
+
+<footer>
+VTG GAMER | TECH © 2026 - Todos los derechos reservados
+</footer>
+
 </body>
 </html>
